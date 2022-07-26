@@ -477,12 +477,17 @@ h3{
 		width: 368px;
 		height: 368px;
 		transform: none;
+		transform: translateY(-100px);
 		
 	}
 	.left-wrapper{
 		display: block;
 		width: 100%;
 		margin: 0;
+		background-color: white;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 25px 25px 0 0;
 	}
 	.right-wrapper{
 		display: block;
@@ -494,9 +499,9 @@ h3{
 	.right-wrapper img{
 		width: 100%;
 		border-radius: 0;
-
-		
-
+	}
+	.wrapper{
+		background: none;
 	}
 	.work-title{
 		position: static;
@@ -551,12 +556,36 @@ h3{
 	}
 	.contact-link a{
 		display: block;
-		margin: 0;	
+		margin: 0;
+		width: 80%;
+		margin: 20px;
+	}
+	.contact-link img{
+		vertical-align: unset;
+	}
+	.contact-link img{
+		width: 53px;
+		height: 53px;
+		object-fit: contain;
+		object-position: left;
 	}
 	.contact-link{
 		margin: 0;	
 	}
 	.a2{
 		width: 100%;
+	}
+	.head{
+		margin-top: 50px;
+	}
+	.title{
+		font-size: 80px;
+		line-height: 80px;
+		margin-bottom: 20px;
+	}
+	.subtitle{
+		font-size: 40px;
+		line-height: 70px;
+		margin-bottom: 20px;
 	}
 }
