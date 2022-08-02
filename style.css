@@ -361,7 +361,7 @@ h3{
 
 
 
-@media(max-width: 1440px){
+/*@media(max-width: 1440px){
 	.content{
 		padding-left:50px ;
 		padding-right: 50px;
@@ -457,7 +457,7 @@ h3{
 	.a2{
 		width: 100%;
 	}
-}
+}*/
 
 
 @media(max-width: 768px){
